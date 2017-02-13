@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.0.0" name="com.fireway.testproject.servlets.LoginServlet">
+    <implementation class="com.fireway.testproject.servlets.LoginServlet"/>
+    <service servicefactory="false">
+        <provide interface="javax.servlet.Servlet"/>
+    </service>
+    <property name="sling.servlet.paths">
+        /bin/pac4jtest.html
+    </property>
+    <property name="service.vendor" value="YOUR COMPANY NAME"/>
+</scr:component>
